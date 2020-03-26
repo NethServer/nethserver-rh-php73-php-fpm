@@ -1,5 +1,5 @@
 Name: nethserver-rh-php73-php-fpm
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 Summary: NethServer rh-php73-php-fpm configuration
 License: GPL
@@ -38,3 +38,6 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Mar 26 2020 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.0-1
+- Nethserver-rh-php73-php-fpm - NethServer/dev#6087
+
