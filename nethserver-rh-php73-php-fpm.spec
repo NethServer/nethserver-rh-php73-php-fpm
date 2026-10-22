@@ -1,5 +1,5 @@
 Name: nethserver-rh-php73-php-fpm
-Version: 1.0.0
+Version: 1.0.1
 Release: 1%{?dist}
 Summary: NethServer rh-php73-php-fpm configuration
 License: GPL
@@ -38,6 +38,9 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Thu Oct 22 2026 Giacomo Sanchietti <giacomo.sanchietti@nethesis.it> - 1.0.1-1
+- PHP critical RCE vulnerabilities (CVE-2026-109618 / CVE-2026-109619) - NethServer/dev#8256
+
 * Thu Mar 26 2020 Stephane de Labrusse <stephdl@de-labrusse.fr> - 1.0.0-1
 - Nethserver-rh-php73-php-fpm - NethServer/dev#6087
 
